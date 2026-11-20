@@ -1,13 +1,14 @@
 # Financial Transactions SQL Analysis
 
-End-to-end SQL analysis and data quality auditing on a financial transactions dataset using **PostgreSQL** and **pgAdmin**.
+End-to-end data quality auditing, SQL transformation, and interactive BI reporting on a financial transactions dataset using **PostgreSQL**, **pgAdmin**, and **Power BI Desktop**.
 
 ## Overview
 
-This project focuses on preparing and auditing raw transaction data, calculating core volume and category metrics, and identifying time trends, error patterns, and unusual transaction amounts before moving into BI reporting.
+This project covers the full workflow from raw CSV ingestion and data quality validation in PostgreSQL to a clean reporting view (`v_transactions_clean`) connected to an interactive Power BI dashboard.
 
 - **Database:** PostgreSQL
 - **Client / UI:** pgAdmin / `psql`
+- **BI & Visualization:** Power BI Desktop (Import mode)
 - **Main Script:** `sql/01_transactions_analysis.sql`
 
 ## Dataset
